@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Alexander Al-Sughari</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form method="post">
+        <section class="box">
+            Podaj słowo 1: <input type="text" id="text1"> <br>
+            Podaj słowo 2: <input type="text" id="text2"> <br>
+            <input type="button" value="Send" onclick="anagram(text1.value, text2.value)">
+        </section>
+        <section class="box">
+            <p id="printResult"></p>
+        </section>
+    </form>
+</body>
+</html>

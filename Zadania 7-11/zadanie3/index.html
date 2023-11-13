@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Alexander Al-Sughari</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+
+    <style>
+        input[type="text"] {
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <section class="box">
+            Podaj ciąg liczb lub słów [oddziel spacjami]: <input type="text" id="text">
+            <input type="button" value="Send" onclick="secondLargestValue(text.value)">
+        </section>
+        <section class="box">
+            <p id="printResult"></p>
+        </section>
+    </form>
+</body>
+</html>

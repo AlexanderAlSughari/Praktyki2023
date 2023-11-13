@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Alexander Al-Sughari</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form method="post">
+        <section class="box">
+            Podaj liczbę 1: <input type="number" id="number1" name="number1"> <br>
+            Podaj liczbę 2: <input type="number" id="number2" name="number2">
+        </section>
+        <section class="box">
+            Wybierz działanie: <br>
+            <input type="button" onclick="calculate(1)" value="+">
+            <input type="button" onclick="calculate(2)" value="-">
+            <input type="button" onclick="calculate(3)" value="x">
+            <input type="button" onclick="calculate(4)" value="/">
+        </section>
+        <section class="box">
+            <p id="printResult"></p>
+        </section>
+    </form>
+</body>
+</html>
